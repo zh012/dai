@@ -19,7 +19,7 @@ links: [hyper]
 ## Table of Contents
 1. [Executive Summary](#1-executive-summary)
 2. [Problem Statement](#2-problem-statement)
-3. [User Stories](#3-user-stories)
+3. [Use cases](#3-use-cases)
 4. [Functional Requirements](#4-functional-requirements)
 5. [Non-Functional Requirements](#5-non-functional-requirements)
 6. [User Journeys](#6-user-journeys)
@@ -51,26 +51,26 @@ links: [hyper]
 - Why solving it matters]
 
 
-## 3. User Stories
+## 3. Use cases
 
-#### STR-XXXX-001: [As a user type, I want to ..., so that ...]
+#### UC-XXXX-001: [As a user type, I want to ..., so that ...]
 - **Priority**: [High/Medium/Low]
 - **Acceptance Criteria**: [Specific, testable condition]
 
-#### STR-XXXX-002: [As a user type, I want to ..., so that ...]
+#### UC-XXXX-002: [As a user type, I want to ..., so that ...]
 - **Priority**: [High/Medium/Low]
 - **Acceptance Criteria**: [Specific, testable condition]
 
-[Continue for all user stories]
+[Continue for all use cases]
 
 ## 4. Functional Requirements
 ### 4.1 [Requirement Category 1]
 - **FR-XXXX-001**: [Detailed requirement description]
-  - **Traceability**: [User Story IDs]
+  - **Traceability**: [Use case IDs]
   - **Type**: [Input/Process/Output]
 
 - **FR-XXXX-002**: [Detailed requirement description]
-  - **Traceability**: [User Story IDs]
+  - **Traceability**: [Use case IDs]
   - **Type**: [Input/Process/Output]
 
 [Continue for all functional requirements]
