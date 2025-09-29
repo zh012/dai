@@ -1,0 +1,48 @@
+# SDD Kit Template Index
+# Version: 1.0
+# Purpose: Central configuration for all document templates
+
+naming_conventions:
+  prefix_format: "{TYPE}-{YYYY}-{MM}-{DD}-{SEQUENCE}-{TITLE}"
+  types:
+    PRD: "PRD"           # Product Requirement Document
+    ARCH: "ARCH"         # Architecture Document
+    DES: "DES"           # Technical Design Document
+    SPR: "SPR"           # Sprint Planning Document
+    RTM: "RTM"           # Requirements Traceability Matrix
+    UL: "UL"             # Ubiquitous Language Glossary
+    CM: "CM"             # Context Map
+    IMP: "IMP"           # Implementation Document
+
+document_sequences:
+  PRD: "PRD-{YYYY}-{MM}-{DD}-001"
+  ARCH: "ARCH-{YYYY}-{MM}-{DD}-001"
+  DES: "DES-{YYYY}-{MM}-{DD}-001"
+  SPR: "SPR-{YYYY}-{MM}-{DD}-001"
+  RTM: "RTM-{YYYY}-{MM}-{DD}-001"
+  UL: "UL-{YYYY}-{MM}-{DD}-001"
+  CM: "CM-{YYYY}-{MM}-{DD}-001"
+  IMP: "IMP-{YYYY}-{MM}-{DD}-001"
+
+document_locations:
+  prd: "docs/prd/"
+  architecture: "docs/architecture/"
+  design: "docs/design/"
+  sprint: "docs/sprint/"
+  context_map: "docs/domain/context-map/"
+  ubiquitous_language: "docs/domain/ubiquitous-language/"
+  rtm: "docs/rtm/"
+  implementation: "docs/implementation/"
+
+document_linking:
+  required_links:
+    PRD: ["RTM", "ARCH"]
+    ARCH: ["PRD", "CM", "UL"]
+    DES: ["PRD", "ARCH", "SPR"]
+    SPR: ["PRD", "DES", "IMP"]
+    IMP: ["SPR", "DES", "RTM"]
+
+  optional_links:
+    RTM: ["PRD", "DES", "IMP"]
+    CM: ["UL", "ARCH"]
+    UL: ["CM", "DES"]
