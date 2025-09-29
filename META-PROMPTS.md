@@ -4,8 +4,7 @@ vertion: v1
 
 # Purpose
 
-I want to create a Spec-Driven Development kit, based on DDD (Domain-Driven Design) and TDD (Test-Driven Development)
-principle and practices, to guide the AI assisted software development.
+I want to create a Spec-Driven Development kit, based on DDD (Domain-Driven Design) and TDD (Test-Driven Development) principle and practices, to guide the AI assisted software development.
 
 
 # This kit will include the following artifacts:

@@ -1,0 +1,31 @@
+version: 1
+updated: 2025-09-28
+docs:
+  - id: PRD-XXXX
+    type: prd
+    title: Product Requirements
+    path: prd.md
+  - id: ARCH-XXXX
+    type: architecture
+    title: System Architecture
+    path: architecture.md
+  - id: DOMAIN-XXXX
+    type: context-map
+    title: Context Map
+    path: context-map.md
+  - id: UL-XXXX
+    type: ubiquitous-language
+    title: Ubiquitous Language Glossary
+    path: ubiquitous-language.md
+  - id: DES-XXXX
+    type: technical-design
+    title: Technical Design
+    path: technical-design.md
+  - id: SPR-YYYY-MM-DD
+    type: sprint
+    title: Sprint NN
+    path: sprint.md
+  - id: RTM-XXXX
+    type: rtm
+    title: Requirements Traceability Matrix
+    path: rtm.md
