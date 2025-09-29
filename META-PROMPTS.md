@@ -13,6 +13,7 @@ I want to create a Spec-Driven Development kit, based on DDD (Domain-Driven Desi
 - Dcoumentation structures
 - `Commands` - the prompts to define persona/guidance for ai to play differenct roles while executing different tasks during the development process
 - `Rules` - constrain the ai's input, output and behavior while making changes
+- Scripts (sh, py or ts ...) to help preparing the context according to the task and docment linkages
 
 # All these artifacts should be desigend to serve the following task during the development process:
 
@@ -67,5 +68,3 @@ I want to create a Spec-Driven Development kit, based on DDD (Domain-Driven Desi
 - Be careful about the document templates, balance the graduality on each level. The goal is to give the executor enough context, also not overwhelmed.
 
 - While design the prompts to ai agent, please give specific instructions about how to name the doc, determine input outout lcoation and how to link the documents together. Also, you can mention some industry classic books to the agent, and ask the agent to follow the principles from the book.
-
-
