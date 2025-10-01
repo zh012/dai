@@ -13,25 +13,28 @@ The SDD Kit guides AI agents through a structured development process that ensur
 ## 🏗️ Kit Architecture
 
 ```
-solution-ccrk2-v1/
-├── docs/                          # Generated documentation structure
+src/
+├── docs/                         # Generated documentation structure
 │   ├── prd/                      # Product Requirements Documents
 │   ├── architecture/             # System Architecture Documents
 │   ├── design/                   # Technical Design Documents
 │   ├── sprint/                   # Sprint Planning Documents
 │   ├── implementation/           # Implementation Documentation
 │   ├── domain/                   # Domain-specific documentation
-│   │   ├── context-map/         # Context Maps
-│   │   └── ubiquitous-language/ # Ubiquitous Language Glossaries
-│   └── rtm/                      # Requirements Traceability Matrices
-├── templates/                    # Document templates with unique IDs
-├── commands/                     # AI agent persona definitions
-│   ├── init/                     # System initialization
-│   ├── prd/                      # Product requirements creation
-│   ├── design/                   # Technical solution design
-│   ├── plan/                     # Sprint planning and task breakdown
-│   └── execute/                  # TDD implementation execution
-└── rules/                        # AI behavior and process rules
+│   │   ├── context-map/          # Context Maps
+│   │   └── ubiquitous-language/  # Ubiquitous Language Glossaries
+│   ├── rtm/                      # Requirements Traceability Matrices
+│   ├── templates/                # Document templates
+│   │   └── examples/             # Document examples
+├── commands/                     # Slash commands
+│   ├── init.md                   # System initialization
+│   ├── prd.md                    # Product requirements creation
+│   ├── design.md                 # Technical solution design
+│   ├── plan.md                   # Sprint planning and task breakdown
+│   └── execute.md                # TDD implementation execution
+├── personas/                     # AI agent persona definitions
+├── rules/                        # AI behavior and process rules
+└── tools/                        # Utility scripts
 ```
 
 ## 🚀 Key Features

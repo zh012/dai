@@ -156,89 +156,25 @@ Examples:
 ### Generated Documents
 
 #### 1. Context Map Document (CM-{date}-001)
+
 **Location**: `docs/domain/context-map/`
-```markdown
-# CM-2025-01-15-001: System Context Map
 
-## Document Metadata
-- **ID**: CM-2025-01-15-001
-- **Title**: {Project} Context Map
-- **Version**: 1.0
-- **Date**: 2025-01-15
-- **Author**: AI System Initialization Architect
-- **Status**: APPROVED
+**Template**: `docs/templates/context-map.md`
 
-## Identified Bounded Contexts
-[Detailed contexts with responsibilities]
-
-## Context Relationships
-[Integration patterns and relationships]
-
-## Ubiquitous Language
-[Domain-specific terms and definitions]
-
-## Integration Strategies
-[API, event-driven, shared database patterns]
-
-## Deployment and Organizational Mapping
-[Team assignments and coordination]
-```
 
 #### 2. Ubiquitous Language Glossary (UL-{date}-001)
+
 **Location**: `docs/domain/ubiquitous-language/`
-```markdown
-# UL-2025-01-15-001: Ubiquitous Language Glossary
 
-## Document Metadata
-- **ID**: UL-2025-01-15-001
-- **Title**: {Project} Ubiquitous Language
-- **Version**: 1.0
-- **Date**: 2025-01-15
-- **Author**: AI System Initialization Architect
-- **Status**: APPROVED
+**Template**: `docs/templates/ubiquitous-language.md`
 
-## Core Domain Terms
-[Business terms with precise definitions]
-
-## Context-Specific Terms
-[Terms organized by bounded context]
-
-## Cross-Context Terms
-[Shared and differentiated terms]
-
-## Process and Workflow Terms
-[Business process terminology]
-```
 
 #### 3. System Architecture Document (ARCH-{date}-001)
+
 **Location**: `docs/architecture/`
-```markdown
-# ARCH-2025-01-15-001: System Architecture
 
-## Document Metadata
-- **ID**: ARCH-2025-01-15-001
-- **Title**: {Project} System Architecture
-- **Version**: 1.0
-- **Date**: 2025-01-15
-- **Author**: AI System Initialization Architect
-- **Status**: APPROVED
-- **Links**: [[CM-2025-01-15-001]], [[UL-2025-01-15-001]]
+**Template**: `docs/templates/architecture.md`
 
-## Architecture Overview
-[High-level design strategy]
-
-## Technical Architecture
-[Technology choices and patterns]
-
-## Domain Architecture
-[DDD architectural considerations]
-
-## Quality Attributes
-[Performance, scalability, security]
-
-## Evolution and Roadmap
-[Short-term and long-term evolution]
-```
 
 ## Success Criteria
 - **Interactive Completion**: Successful completion of interactive sessions

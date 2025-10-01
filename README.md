@@ -10,6 +10,12 @@ I tried to create the framework by feeding the [META-PROMPTS](./META-PROMPTS.md)
 
 The Claud Code + Kimi K2 version is finally picked.
 
-# TODO
+# Installation
 
-[ ] Create installation scripts for mainstream AI coding agentes, like Cursor, Claude Code and Qwen Code.
+Clone the repo to local and run
+
+```
+uv run install-dai.py /path/to/project/folder
+
+```
+
